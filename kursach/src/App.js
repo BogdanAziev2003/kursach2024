@@ -1,9 +1,8 @@
-import "./App.css"
-import { Route, Routes } from "react-router-dom"
-import Header from "./components/Header"
-import Unemployed from "./components/Unemployed"
-import Vacancy from "./components/Vacancy"
-import Archive from "./components/Archive"
+import { Route, Routes } from 'react-router-dom';
+import Header from './components/Header';
+import Unemployed from './components/Unemployed';
+import Vacancy from './components/Vacancy';
+import Archive from './components/Archive';
 
 function App() {
   return (
@@ -15,7 +14,7 @@ function App() {
         <Route path="/archive" element={<Archive />} />
       </Routes>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
